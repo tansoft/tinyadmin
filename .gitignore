@@ -1,6 +1,7 @@
-assets/*
-!assets/.gitignore
-protected/runtime/*
-!protected/runtime/.gitignore
-protected/data/*.db
-themes/classic/views/
+#
+@eaDir
+@eaDir/*
+*/@eaDir
+.DS_Store
+*/.DS_Store
+composer.lock
